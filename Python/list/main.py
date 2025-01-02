@@ -20,5 +20,8 @@ def list_operation(listCommand):
         elif cmd == "reverse":
             my_list.reverse()
 
-listCommand = ["insert 0 5", "insert 1 10", "insert 0 6", "print", "remove 6", "append 9", "append 1", "sort", "print", "pop", "reverse", "print"]
-list_operation(listCommand)
+
+
+if __name__ == '__main__':
+    listCommand = ["insert 0 5", "insert 1 10", "insert 0 6", "print", "remove 6", "append 9", "append 1", "sort", "print", "pop", "reverse", "print"]
+    list_operation(listCommand)
